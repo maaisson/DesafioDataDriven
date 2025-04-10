@@ -1,0 +1,44 @@
+# Arquivos de Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Arquivos do Jupyter
+.ipynb_checkpoints/
+*.ipynb~  # arquivos temporários
+*.checkpoint.ipynb
+
+# Ambientes virtuais
+.env/
+.venv/
+env/
+venv/
+
+# VSCode
+.vscode/
+.vscode-server/
+.vscode-remote/
+
+# Arquivos de container e cache do Dev Container
+.devcontainer/devcontainer.json-backup
+.vscode-server-insiders/
+.vscode-test/
+.vscode-remote-containers/
+
+# Arquivos de log e debug
+*.log
+
+# Dados locais
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.zip
+*.tar.gz
+
+# Jupyter runtime
+~/.local/share/jupyter/runtime/

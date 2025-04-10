@@ -33,7 +33,6 @@ venv/
 *.log
 
 # Dados locais
-*.csv
 *.xlsx
 *.parquet
 *.pkl
